@@ -1,7 +1,7 @@
 let questions = [
     {
         numb: 1,
-        question: "O que segnifica HTML ?",
+        question: "O que segnifica HTML?",
         answer: "Hyper Text Markup Language",
         options: [
             "Hyper Text Preprocessor",
@@ -34,7 +34,7 @@ let questions = [
       },
       {
         numb: 4,
-        question: "Qual o significado de SQL",
+        question: "Qual o significado de SQL?",
         answer: "Structured Query Language",
         options: [
           "Stylish Question Language",
