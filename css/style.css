@@ -36,6 +36,7 @@ body{
     transform: translate(-50%, -50%);
     box-shadow: 0px 4px 8px o rgba(0, 0, 0, 0.2),
                 0px 6px 20px o rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 .start_btn button{
@@ -49,7 +50,9 @@ body{
     cursor: pointer;
 }
 
-.info_box.activeInfo{
+.info_box.activeInfo,
+.quiz_box.activeQuiz
+{
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
