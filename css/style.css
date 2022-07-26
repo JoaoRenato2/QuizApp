@@ -178,6 +178,14 @@ body{
     border: 1px solid #343a40;
 }
 
+.quiz_box header .time_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 0.3rem;
+    background: #007bff;
+}
+
 .quiz_box section{
     padding: 2.5rem 3rem 2rem 3rem;
     background: #fff;
